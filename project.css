@@ -1,0 +1,273 @@
+*{
+	font-family: cursive;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar{
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 5px 5px 5px #ccc;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar a{
+	color: #000;
+	background: ;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.btn{
+	background: #fff;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+
+.dropdown{
+	float: left;
+}
+
+.sub{
+	position: fixed;
+	background: grey;
+	display: none;
+}
+
+.sub a{
+	display: block;
+	float: none;
+}
+
+.navbar a:hover, .btn:hover{
+	background: lightpink;
+	color: #fff;
+}
+
+.dropdown:hover .sub{
+	display: block;
+}
+
+.welcome, .about{
+	display: flex;
+	justify-content: center;
+	padding: 70px;
+}
+
+.welcome div{
+	width: 40%;
+	margin: 10px;
+}
+
+.welcome h2{
+	color: red;
+}
+
+.welcome p{
+	font-size: 18px;
+	line-height: 35px;
+	text-align: justify;
+}
+
+.welcome button{
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 10px;
+	border:4px solid #444;
+	border-radius: 40px;
+}
+
+.activity{
+	display: flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+.activity > div{
+	width: 25%;
+	margin: 10px;
+}
+
+.activity img{
+	border-radius: 30px;
+}
+
+span{
+	color: red;
+}
+
+.activity1{
+	display: flex;
+}
+
+.activity1 > div{
+	background: url('img/22.2.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#video, #contact, #cele, #gallery {
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.video, .contact, .about, .gallery{
+	display: flex;
+	justify-content: center;
+}
+
+.video div {
+	width: 40%;
+	margin: 5px;
+}
+
+.map{
+	width: 68%;
+	margin-right: 2px;
+}
+
+.form{
+	width: 30%;
+	display: block;
+	background: lightpink;
+	margin: 3px;
+	padding: 1px;
+
+}
+.form input, textarea{
+	width: 95%;
+	margin: 5px;
+}
+
+.form textarea{
+	height: 250px;
+	margin-bottom: 15px;
+}
+
+.form button{
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 8px 15px;
+	border:4px solid #555;
+	border-radius: 40px;
+}
+
+.cele{
+	display: flex;
+	justify-content: center;
+	background: #FF6347;
+}
+
+.cele div{
+	width: 15%;
+	margin: 60px 20px;
+}
+
+.cele img{
+	width: 100%;
+	margin: 10px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+}
+
+.cele h1{
+	text-align: center;
+}
+
+.cele p{
+	text-align: center;
+}
+
+ #about{
+ 	margin-top: 30px;
+ 	text-align: center;
+ }
+
+ .left{
+ 	width: 35%;
+ 	margin-right: 10px;
+ }
+
+ .left div{
+  	text-align: right;
+ }
+
+ .left h2{
+ 	opacity: 0.6;
+ }
+
+.left p{
+ 	opacity: 0.5;
+ }
+
+ .left span{
+ 	color: red;
+ }
+
+.right{
+ 	width: 55%;
+ }
+
+.gallery div{
+	width: 25%;
+	margin: 10px;
+}
+ .gallery img{
+ 	border: 2px solid #ddd;
+ 	border-radius: 30px;
+ 	height: 230px;
+ }
+ 
+ .gallery img:hover{
+  transform: scale(1.1);
+  transform: rotate(40deg);	
+  transition-duration: 2s;
+ }
+
+ .footing{
+ 	background: red;
+ 	height: 75px;
+ }
+
+ .footing h3{
+ 	color: #fff;
+ 	text-align: center;
+ 	justify-content: center;
+ 	padding: 25px 25px;
+ }
+
+ body .scroll{
+ 	background: black;
+ 	width: 40px;
+ 	height: 40px;
+ 	border-radius:50% ;
+ 	border:6px solid #444;
+ 	position: fixed;
+ 	bottom: 10px;
+ 	right: 20px;
+ 	overflow: none;
+ }
+
+ .scroll h3{
+ 	justify-content: center;
+ 	text-align: center;
+ 	margin: 7px 0px;
+ }
+
